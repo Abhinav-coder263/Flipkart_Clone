@@ -1,4 +1,3 @@
-# Flipkart-Clone
 Html &amp; CSS
 # Flipkart-Clone
 --- 
