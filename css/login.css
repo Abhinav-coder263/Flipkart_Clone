@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+display: grid;
+place-items: center;
+min-height: 100vh;
+
+}
+.conatiner{
+background-color: beige;
+max-width: 40rem;
+padding: 1rem;
+width: 100%;
+display: grid;
+grid-template-columns: 1fr 1.3fr;
+}
+.left{
+    background-color: #2874f0;
+    padding: 3rem 2rem;
+}
+.img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    margin-top: 2rem;
+    align-items: center;
+}
+.right{
+    padding: 3rem 2rem 1.8rem;
+}
+.heading{
+    color: white;
+font-weight: 500;
+margin-bottom: 1rem;
+
+}
+.heading_des{
+    color: white;
+    font-size: 1.2rem;
+
+}
+.input_group{
+    position: relative;
+    margin-bottom: 0.1rem;
+    width: 100%;
+}
+.input{
+padding: 0.5rem 0;
+border: none;
+border-bottom: 1px solid #878787;
+width: 100%;
+outline: none;
+font-size: 1.1rem;
+}
+.label{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translatey(-50%);
+    color: #878787;
+    pointer-events: none;
+    transform-origin: left;
+transition: transform 0.3s ease;
+}
+.input::placeholder{
+    visibility: hidden;
+}
+.input:focus ~ label,input:not(:placeholder-shown) ~ label{
+    transform: translateY(-140%)scale(0.8);
+}
+.line{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: blue;
+    transform: scalex(0);
+    transition: transform 0.4s ease-in-out;
+
+}
+.input:focus ~ .line,input:not(:placeholder-shown) ~.line{
+    transform: scaleX(1);
+}
+a{
+    color: #2874f0;
+    text-decoration: none;
+}
+.input_group .link{
+position: absolute;
+right: 0;
+top: 50%;
+    transform: translatey(-50%);
+}
+.input_group .link:hover{
+    text-decoration: underline;
+}
+.para{
+    font-size: 0.75rem;
+    margin-top: 2rem;
+color: #878787;
+}
+.btn{
+    background-color: #fb641b;
+    color: white;
+    padding: 0.8rem 0;
+    border: none;
+    width: 100%;
+    font-size: 1.15rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 0.1);
+    align-items: center;
+}
+.para_or{
+    text-align: center;
+    font-size: 1.2rem;
+}
+.btn2{
+    align-items: center;
+    background-color: white;
+    color: #2874f0;
+    padding: 0.8rem 0;
+    border: none;
+    width: 100%;
+    font-size: 1.15rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 0.2);
+    
+}
+.bottom{
+    text-align: center;
+    margin-top: 1rem;
+    margin-right: 0;
+}

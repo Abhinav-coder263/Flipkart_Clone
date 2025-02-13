@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Jersey+15&display=swap");
+
+.text_center {
+  text-align: center;
+}
+footer {
+  background-color: black;
+  color: aqua;
+  justify-content: center;
+  height: 12vh;
+  display: flex;
+  align-items: center;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.watermark {
+  height: 12vh;
+  display: flex;
+  justify-content: center;
+}
+.text {
+  text-decoration: none;
+  color: black;
+  font-style: bold;
+  max-width: 50vw;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: 1px solid;
+  align-items: center;
+}
+.header-login-btn {
+  padding: 2px 10px;
+  border-radius: 1px;
+  outline: none;
+  border: none;
+  background: white;
+  margin-left: 5px;
+}
+.header-login-btn a {
+  color: #2874f0;
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.loginbtn{
+  text-decoration: double;
+  padding: 7px 30px;
+  font-size: 16px;
+  font-weight:500;
+  border: #0e0e0e;
+  outline: none;
+  color: rgb(244, 240, 240);
+  background-color: rgb(9, 82, 150);
+
+}
+.loginb{
+  position: absolute;
+  top: 61px;
+  height: 400px;
+  width:230px;
+  margin-left: -100px;
+  background-color: whitesmoke;
+  box-shadow:-5px 5px 7px rgba(0,0,0,0.2),
+  5px 5px 10px rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+  padding: 0px 10px;
+  font-weight: 500;
+  color:#0e0e0e ;
+  display: none;
+}
+.fa-regular{
+  border: solid 2px white;
+  border-radius: 140px;
+}
+
+.tringle_up{
+  position: relative;
+ height: 0;
+ width: 0;
+ border-left: 10px solid transparent;
+ border-right: 10px solid transparent;
+ border-bottom: 12px solid rgb(236, 235, 235);
+ top:-12px;
+}
+.newuser{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: rgb(12, 12, 12);
+  
+  
+}
+.newuser a{
+  color: blue;
+  text-decoration: none;
+
+}
+.newuser a:hover{
+text-decoration:underline ;
+}
+
+.loginmenu{
+  color: rgb(3, 3, 3);
+  width: 200px;
+  margin-top:20px;
+ 
+}
+.menulist{
+  display: flex;
+  padding: 15px 0px;
+  margin: 7px;
+  
+}
+.loginbtn:hover .loginb{
+display:flex;
+cursor: pointer;
+}
+/* bottom */
+.top-nine-product {
+  margin: 10px 85px;
+  padding: 10px;
+  border-radius: 2px;
+  background-color: white;
+}
+
+.top-nine-product-contain {
+  /* display: grid; */
+  grid-template-columns: auto auto auto;
+  flex-direction: row;
+  display: flex;
+}
+
+.top-nine-product-contain img {
+  width: 100%;
+  padding: 5px;
+  border-radius: 18px;
+
+}
+.bottom_section {
+  -webkit-text-size-adjust: 100%;
+  letter-spacing: 0;
+  font-family: inter_regular, fallback-inter_regular, Arial, sans-serif;
+  list-style: none;
+  color: #878787;
+  line-height: 16px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
